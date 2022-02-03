@@ -93,11 +93,13 @@ friends.append('Jake')
 
 # Problem 13
 # Print out the total amount of elements in the `friends` array. The Python method you are looking for is similar to the JavaScript property `.length`.
-len(friends)
+print(len(friends))
 
 # Problem 14
 # Add a name into the third position in the array (index 2). Make sure you are not overwriting the value that is already there.
-
+friends.insert(2,'Frank')
 
 # Problem 15
 # Remove the last item in the array (try to think about how you can do this dynamically, meaning, if the array contents were to change, your code would still work).
+friends = friends[:-1]
+print(friends)
